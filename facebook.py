@@ -16,7 +16,7 @@ from pymongo.errors import ConnectionFailure
 
 Client = MongoClient('mongodb://localhost:27017')
 
-#Connection check to CouchDB
+#Check connection to CouchDB
 '''try:
     Client.admin.command('ismaster')
     print('MongoDB connection: Succes')
