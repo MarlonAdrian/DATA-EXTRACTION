@@ -29,8 +29,7 @@ class listener(StreamListener):
         print (status)
         
 
-
-auth = OAuthHandler(ckey, csecret)   #toman los valores de las keys
+auth = OAuthHandler(ckey, csecret)   #takes values from keys
 auth.set_access_token(atoken, asecret)
 twitterStream = Stream(auth, listener())
 
