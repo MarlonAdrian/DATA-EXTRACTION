@@ -1,7 +1,7 @@
 import requests #peticion a las paginas 
 from bs4 import BeautifulSoup #extrae la info
 
-"----------------------------------------GUARDAR EL CSV A MONGODB-----------------------------------------------"
+"----------------------------------------LIBRARIES FOR SAVE CSV TO MONGODB-----------------------------------------------"
 from pymongo import MongoClient
 import pandas as pd
 import bson
@@ -9,7 +9,7 @@ import json
 from bson.raw_bson import RawBSONDocument
 
 
-"----------------------------------------CONEXION A MONGODB-----------------------------------------------"
+"----------------------------------------CONECCTION TO MONGODB-----------------------------------------------"
 from pymongo import MongoClient
 myClient = MongoClient ('mongodb://localhost:27017/')
 try:
@@ -25,8 +25,8 @@ def find_2nd(string, substring):
 def find_1st(string, substring):
     return string.find(substring, string.find(substring))
  
-response = requests.get('https://www.elcomercio.com/tag/columnistas/') #pagina web
-soup = BeautifulSoup(response.content, "lxml") #manipular la info, es recomendable utilizar el formato lxml
+response = requests.get('https://www.elcomercio.com/tag/columnistas/') #web page
+soup = BeautifulSoup(response.content, "lxml") #manipulate the info, it is recommended to use the lxml format
 
 #Arrays to save data
 Author=[]
@@ -70,7 +70,6 @@ for element in post_lectura:
     limpio=str(element[find_1st(element, '>')+1:find_2nd(element,'<')])
     #print (limpio)
     Lectura.append(limpio.strip())
-
 
 
 #Save on Dataframe with pandas
