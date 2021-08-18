@@ -29,7 +29,7 @@ En la línea 35 se especificará el numero de paginas que en que se buscará la 
      - *npm install -g calculator*, el -g significa que se instalará en todo el entorno de programación.
      - *node-calc*
      - *npm i -g tiktok-scraper*    
-     - Finalmente se escribe el nombre la cuenta oficial a buscar con el tipo de formato a guardarse, dado que se lo enviará a otra base de datos se lo pondra como csv *tiktok-scraper user olympicteamisrael -t csv*
+     - Finalmente se escribe el nombre la cuenta oficial a buscar con el tipo de formato a guardarse, dado que se lo enviará a otra base de datos se lo pondra como csv: *tiktok-scraper user olympicteamisrael -t csv*
 
 
 **6. Envío de los datos de Twitter a MongoDB (CouchDB hacia MongoDB)**
