@@ -5,10 +5,12 @@ Para realizar la extracción de datos de Twitter se debe tomar en cuenta que se 
 Una vez hallado los tuits se los enviarán hacia la base de datos de CouchDB (línea 37 hasta 41)
 
 2. Facebook(extracción y envío del mismo hacia MongoDB)
+
 Se importan las bibliotecas que se requerirán para realizar dicha petición, tomar en cuenta que si se tiene enlazada la cuenta de Facebook ya sea con gmail o el numero de celular, se enviará un mensaje de confirmación de este procedimiento a realizar.
 En la línea 35 se especificará el numero de paginas que en que se buscará la información, para que no exista tanta información en las paginas se colocó el número 3. Este traerá como resultado la fecha, el texto, likes, comentaros, etc., de la publicación. Todo esta extracción se la guardará en un archivo de formato json, dado que MongoDB admite formatos Json y CSV.
 
 4. Web Scraping(Extracción de datos de una pagina web en particular y envío del mismo hacia MongoDB)
+
 Cuando se hace web Scraping se debe tene runa pagina web base de donde se extraerán los datos, la pagina de "El comercio" será en esta ocasión. Además de que la información extraída será almacenada en arrays, y después guardada en un formato Json. Finalmente se lo enviará a MongoDB.
 
 5. Tik Tok(extracción y envío del mismo hacia MySQL )
