@@ -23,7 +23,7 @@ En la línea 35 se especificará el numero de paginas que en que se buscará la 
        - git repository: **teclear *Enter***
        - keywords: **teclear *Enter***
        - author: **teclear *Enter***
-      Si el usuario no desea presionar *Enter* podría escribir a su gusto los campos necesarios allí.
+      - Si el usuario no desea presionar *Enter* podría escribir a su gusto los campos necesarios allí.
      - *npm install calculator*, el npm es un administrador de paquetes; posee para Word, Excel, gif, mp3, etc.(tiene página oficial para descargarlos).
      - *npm install -g calculator*, el -g significa que se instalará en todo el entorno de programación.
      - *node-calc*
