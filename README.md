@@ -15,15 +15,15 @@ En la línea 35 se especificará el numero de paginas que en que se buscará la 
 **4. Tik Tok(Extracción y envío del mismo hacia MySQL)**
    - Con respecto a la obtención de datos de tik tok se utilizó la consola de windows en base a algunas librería que permiten tener acceso a los datos de esta red social. La cuenta en esta ocasión será la de **olympicteamisrael**. Una vez que se ingrese a la consola y en la carpeta en donde se desea guardar la info se deberá escribir las siguientes combinaciones:
      - *npm init* , este inicializa un proyecto, la cual tendrá un servidor, archivos de configuración e inicializa el entorno.
-package name: (tiktok) **nombre aleatorio***
-   version: (1.0.0)g **teclear *Enter***
-   description: **teclear *Enter***
-   entry point: (index.js) **teclear *Enter***
-   test command: **teclear *Enter***
-   git repository: **teclear *Enter***
-   keywords: **teclear *Enter***
-   author: **teclear *Enter***
-   Si el usuario no desea presionar *Enter* podría escribir a su gusto los campos necesarios allí.
+     package name: (tiktok) **nombre aleatorio***
+     version: (1.0.0)g **teclear *Enter***
+     description: **teclear *Enter***
+     entry point: (index.js) **teclear *Enter***
+     test command: **teclear *Enter***
+     git repository: **teclear *Enter***
+     keywords: **teclear *Enter***
+     author: **teclear *Enter***
+     Si el usuario no desea presionar *Enter* podría escribir a su gusto los campos necesarios allí.
      - *npm install calculator*, el npm es un administrador de paquetes; posee para Word, Excel, gif, mp3, etc.(tiene página oficial para descargarlos).
      - *npm install -g calculator*, el -g significa que se instalará en todo el entorno de programación.
      - *node-calc*
