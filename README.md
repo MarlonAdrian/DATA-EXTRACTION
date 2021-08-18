@@ -13,9 +13,9 @@ En la línea 35 se especificará el numero de paginas que en que se buscará la 
    - Cuando se hace web Scraping se debe tene runa pagina web base de donde se extraerán los datos, la pagina de "El comercio" será en esta ocasión. Además de que la información extraída será almacenada en arrays, y después guardada en un formato Json. Finalmente se lo enviará a MongoDB.
 
 **4. Tik Tok(Extracción y envío del mismo hacia MySQL)**
-   - Con respecto a la obtención de datos de tik tok se utilizó la consola de windows en base a algunas librería que permiten tener acceso a los datos de esta red social. La cuenta en esta ocasión será la de **olympicteamisrael**.
-   - Una vez que se ingrese a la consola y en la carpeta en donde se desea guardar la info se deberá escribir las siguientes combinaciones:
-    - *npm init*
+   - Con respecto a la obtención de datos de tik tok se utilizó la consola de windows en base a algunas librería que permiten tener acceso a los datos de esta red social. La cuenta en esta ocasión será la de **olympicteamisrael**. Una vez que se ingrese a la consola y en la carpeta en donde se desea guardar la info se deberá escribir las siguientes combinaciones:
+     - *npm init* , este inicializa un proyecto, la cual tendrá un servidor, archivos de configuración e inicializa el entorno.
+
 
 6. a
 
