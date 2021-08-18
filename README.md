@@ -33,6 +33,8 @@ Si el usuario no desea presionar *Enter* podría escribir a su gusto los campos 
 - Finalmente se escribe el nombre la cuenta oficial a buscar con el tipo de formato a guardarse, dado que se lo enviará a otra base de datos se lo pondra como csv *tiktok-scraper user olympicteamisrael -t csv*
 
 6. a
-
+1. Primer elemento de la lista
+   - Primer elemento de la lista anidado
+     - Segundo elemento de la lista anidado
 
   
