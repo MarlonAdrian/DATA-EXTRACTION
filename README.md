@@ -13,7 +13,7 @@ En la línea 35 se especificará el numero de paginas que en que se buscará la 
 **3. Web Scraping (Extracción de datos de una pagina web en particular y envío del mismo hacia MongoDB)**
    - Cuando se hace web Scraping se debe tene runa pagina web base de donde se extraerán los datos, la pagina de "El comercio" será en esta ocasión. Además de que la información extraída será almacenada en arrays, y después guardada en un formato Json. Finalmente se lo enviará a MongoDB.
 
-**4. Tik Tok (Extracción y envío del mismo hacia MySQL)**
+**4. Tik Tok (Extracción de datos de cuentas oficiales mediante el símbolo del sistema)**
    - Con respecto a la obtención de datos de tik tok se utilizó la consola de windows en base a algunas librería que permiten tener acceso a los datos de esta red social. La cuenta en esta ocasión será la de **olympicteamisrael**. Una vez que se ingrese a la consola y en la carpeta en donde se desea guardar la info se deberá escribir las siguientes combinaciones:
    - *Nota: Si el usuario no desea presionar Enter podría escribir a su gusto los campos necesarios allí.*
      - *npm init* , este inicializa un proyecto, la cual tendrá un servidor, archivos de configuración e inicializa el entorno. 
@@ -33,7 +33,9 @@ En la línea 35 se especificará el numero de paginas que en que se buscará la 
 
 
 **6. Envío de los datos de Twitter a MongoDB (CouchDB hacia MongoDB)**
+
 **7. Envío de los datos de Tik Tok a MongoDB (SQLite hacia MongoDB)**
+
 **8. Enviar base de datos de MongoDB a MongoDB Atlas**
 
 
