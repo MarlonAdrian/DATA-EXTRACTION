@@ -74,14 +74,14 @@ for element in post_lectura:
 
 #Save on Dataframe with pandas
 archivo = pd.DataFrame({'Author':Author,'Date':Fecha,'Read':Lectura,})
-archivo.to_json('comercio.json')
+archivo.to_json('nameFile.json')
 
 #Creating new database and collection
 db = myClient["name_database"]
 Collection= db["name_collection_of_database"]
 
 #Save database as file and send  it to MongoDB
-with open('comercio.json') as file:
+with open('nameFile.json') as file:
     file_data = json.load(file)
 
     
