@@ -45,7 +45,8 @@ En la línea 35 se especificará el numero de paginas que en que se buscará la 
   
 **6. Envío de los datos de Tik Tok a MongoDB (MYSQL hacia MongoDB)**
    - Como ya se tenía la información de la cuenta de TikTok en csv es sencillo subirlo a MongoDB, practicamente son los mismos pasos de importación del literal anterior. Así se vería la importación del mismo:
-     - ![1](https://user-images.githubusercontent.com/66731201/130114155-34148269-f4d3-4655-b7d1-a4e2c91ffa15.png)     
+     - ![1](https://user-images.githubusercontent.com/66731201/130114155-34148269-f4d3-4655-b7d1-a4e2c91ffa15.png) Finalizando así este apartado.
+         
      
 **7. Enviar base de datos de MongoDB a MongoDB Atlas**
 
