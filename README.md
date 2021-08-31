@@ -38,6 +38,11 @@ En la línea 35 se especificará el numero de paginas que en que se buscará la 
          
 **7. Enviar base de datos de MongoDB a MongoDB Atlas**
    - Descripción detallada del procedimiento en *8.md*
-
+  
+**8. Extracción de datos de MongoDB Atlas como CSV**
+   - Descripción detallada del procedimiento en *8.md*
+ 
+**9. Extracción de datos de MongoDB Atlas como JSON**
+   - Descripción detallada del procedimiento en *9.md*
 
   
