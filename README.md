@@ -31,17 +31,7 @@ En la línea 35 se especificará el numero de paginas que en que se buscará la 
 
 
 **5. Envío de los datos de Twitter a MongoDB (CouchDB hacia MongoDB)**
-   - Dado que en el paso 1 los datos extraídos de Twitter fueron enviados a CouchDB, ahora se los enviará a MongoDb de la siguiente manera:
-     - En el Script de Twitter se puso como nombre a la base de datos "name_data_base", pues esta base se la hallará así:  
-       - ![Imagen1](https://user-images.githubusercontent.com/66731201/130008138-f16a87d2-c244-44d4-9e50-d689a7123540.png)
-     - Se ingresará a dicha base de datos y se debe asegurar que el formato esté en el de tipo json, y en la parte superios derecha se dará clic en *{}Json*  
-       - ![Imagen2](https://user-images.githubusercontent.com/66731201/130008610-6d8175c3-cfaf-468f-be94-ecbcfa3e8bf4.png)
-     - Se abrirá un nueva pestaña en el navegador con toda la información, entonces se debe dar un clic derecho y guardar el archivo.
-     - Luego se debe dirigir a MongoDB y en *Create DataBase* se pondrá el nombre de la base de datos a crear y de la colección (en este caso será twitter e info_twitter).
-     - En la siguiente captura de imagen se importará el archivo Json que se descargó en CouchDB 
-       - ![3](https://user-images.githubusercontent.com/66731201/130009458-5bba3e2f-f5e4-4caa-87fa-1096bfc0867f.png) 
-     - Finalmente se selecciona el archivo y se lo importa **Tomar en cuenta que el formato Json cumple una gramatica en específico**
-       - ![4](https://user-images.githubusercontent.com/66731201/130010453-7290698e-c1ad-4db4-b7e0-a5e90583343d.png)
+   - Descripción detallada del procedimiento en *7Envío de los datos de Twitter a MongoDB (CouchDB hacia MongoDB).md*
   
 **6. Envío de los datos de Tik Tok a MongoDB (MYSQL hacia MongoDB)**
    - Como ya se tenía la información de la cuenta de TikTok en csv es sencillo subirlo a MongoDB, practicamente son los mismos pasos de importación del literal anterior. Así se vería la importación del mismo:
