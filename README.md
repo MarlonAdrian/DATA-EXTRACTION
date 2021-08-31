@@ -54,9 +54,10 @@ En la línea 35 se especificará el numero de paginas que en que se buscará la 
      - Una vez que ya se haya creado un clúster en Mongo Atlas, se irá hacia *Collecions* y debajo de esto existe un *+ Create data base*, se pondrá el nombre de la collección y la base de datos.
        - 1. ![atlas2](https://user-images.githubusercontent.com/66731201/131422352-ed6a3600-109b-435b-a095-73a2eb2d5451.png)
        - 2. ![atlas](https://user-images.githubusercontent.com/66731201/131422116-1c8942cc-0dc7-4dca-9e25-e48bfd138d77.PNG)
-       - *INSERT DOCUMENT* mediante un editor de texto se abre el documento exportado de MongoDB, se copia aquel archivo y se lo pegará.
+       - clic en *INSERT DOCUMENT*, mediante un editor de texto se abre el documento exportado de MongoDB, se copia aquel archivo y se lo pegará.
          - ![twitter1](https://user-images.githubusercontent.com/66731201/131422852-cbb5c685-be99-45ab-bc57-aa329b7bee75.PNG)
-         - ![fin](https://user-images.githubusercontent.com/66731201/131423047-d508fbfd-0385-4129-be01-d374407fbe19.PNG)
+         - Finalemente se habrá culminado el procedimiento y presentando en pantalla la misma base de datos
+           - ![fin](https://user-images.githubusercontent.com/66731201/131423047-d508fbfd-0385-4129-be01-d374407fbe19.PNG)
 
 
   
